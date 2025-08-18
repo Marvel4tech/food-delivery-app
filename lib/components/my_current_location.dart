@@ -9,7 +9,7 @@ class MyCurrentLocation extends StatelessWidget {
       builder:(context) => AlertDialog(
         title: const Text("Your location"),
         content: const TextField(
-          decoration: const InputDecoration(
+          decoration: InputDecoration(
             hintText: "Search address.."
           ),
         ),
